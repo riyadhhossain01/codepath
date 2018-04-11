@@ -1,61 +1,41 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: 25 hours spent in total
+Time spent: >25 hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
 ## Pentesting Report
 
 1. Vulnerability Name: XSS Attack
-  - [ ] Summary:XSS attack by posting code 
-    - Vulnerability types:XSS
-    - Tested in version:4.2
+  - [ ] Summary: XSS Attack by posting harmful code in post
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
     - Fixed in version: 4.6.1
-  - [ ] GIF Walkthrough: /Users/riyadhhossain/Desktop/Codepath/week7/XSS.gif
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
+  ![alt text](https://github.com/riyadhhossain01/codepath/blob/master/week7/XSS.gif)
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    
+2. Vulnerability Name: User Enumeration
+  - [ ] Summary: User Enumeration to find a valid user
+    - Vulnerability types: User Enumeration
+    - Tested in version: 4.2
+    - Fixed in version: 4.7.5
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+  ![alt text](https://github.com/riyadhhossain01/codepath/blob/master/week7/User%20enumeration.gif)
+    - [Link 2](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    
+3. Vulnerability Name: XSS embedded URL
+  - [ ] Summary: XSS(stored) through embedded URL
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough: 
+  ![alt text](https://github.com/riyadhhossain01/codepath/blob/master/week7/XSS%20through%20embedded%20url.gif)
   - [ ] Steps to recreate: 
+    - make a post/page containing harmful embedded link such as: " [embed src='https://youtube.com/embed/12345\x3csvg onload=alert(12312313)\x3e'][/embed] "
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
-
-## Assets
-
-List any additional assets, such as scripts or files
-
+    - [Link 4](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
+ 
 ## Resources
 
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
@@ -64,12 +44,7 @@ List any additional assets, such as scripts or files
 GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-
-Describe any challenges encountered while doing the work
-
-## License
-
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2018] [Riyadh Hossain]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
