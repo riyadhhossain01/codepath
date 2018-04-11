@@ -7,7 +7,7 @@ Time spent: >25 hours spent in total
 ## Pentesting Report
 
 1. Vulnerability Name: XSS Attack
-  - [ ] Summary: XSS Attack by posting harmful code in post
+  - [ ] Summary: XSS Attack by posting hello post code in post
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.6.1
@@ -16,7 +16,7 @@ Time spent: >25 hours spent in total
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
     
 2. Vulnerability Name: User Enumeration
-  - [ ] Summary: User Enumeration to find a valid user
+  - [ ] Summary: User Enumeration to find a valid user by guessing
     - Vulnerability types: User Enumeration
     - Tested in version: 4.2
     - Fixed in version: 4.7.5
