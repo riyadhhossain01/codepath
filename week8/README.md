@@ -23,7 +23,7 @@ Select the Salesperson section, there is "?id=X" at the end of the url, by enter
 
 Vulnerability #2: Session Hijacking__
 
-Entering the URL https://github.com/riyadhhossain01/codepath/blob/master/week8/Session%20Hijacking:Fixation%20Blue.gif
+Entering the URL ![alt text](https://github.com/riyadhhossain01/codepath/blob/master/week8/Session%20Hijacking:Fixation%20Blue.gif)
 
 If you log in, you get a session token
 If you log out and log back in, the session token stays the same. However, the session token should change between each log out and log in (as is the case in the green and red site.
@@ -32,12 +32,12 @@ If you log out and log back in, the session token stays the same. However, the s
 ## Green
 
 Vulnerability #1: Username Enumeration
-Entering the URL https://github.com/riyadhhossain01/codepath/blob/master/week8/Username%20Enumeration%20Green.gif
+Entering the URL ![alt text](https://github.com/riyadhhossain01/codepath/blob/master/week8/Username%20Enumeration%20Green.gif)
 
 When I trying to login using a wrong username, the alert message is in plain text. But when I triyng to login using a correct username, the alert message appeared is bold. By inspecting the page, we could found that class is "failture" for correct username. The other class is "failed" for uncorrect username.
 
 Vulnerability #2: Cross-Site Scripting
-Entering the URL https://github.com/riyadhhossain01/codepath/blob/master/week8/Cross-Site%20Scripting%20Green.gif
+Entering the URL ![alt text](https://github.com/riyadhhossain01/codepath/blob/master/week8/Cross-Site%20Scripting%20Green.gif)
 
 In the Contact Us page, the script can be entered in Your Name and Feedback. For example, entering <script>alert('Shirong found the XSS!')</script> in both Your Name and Feedback, then go to feedback section in Staff Menu, the alert "Shirong found the XSS!" will appear twice. If you entern word instead of xss code in each section, then it will appear word.
 
@@ -45,17 +45,17 @@ In the Contact Us page, the script can be entered in Your Name and Feedback. For
 ## Red
 
 Vulnerability #1: Insecure Direct Object Reference
-Entering the URL https://github.com/riyadhhossain01/codepath/blob/master/week8/Insecure%20Direct%20Object%20Refrence%20Red.gif
+Entering the URL ![alt text](https://github.com/riyadhhossain01/codepath/blob/master/week8/Insecure%20Direct%20Object%20Refrence%20Red.gif)
 
 In the Find a Salesperson section https://35.188.56.136/red/public/salesperson.php?id=X, by setting X to be 10 or 11 will give two people that can't be found in Find a Salesperson section. But in blue or green site, when you enter id=10 or id=11, then it will go back to Find a Salesperson page.
 
 Vulnerability #2: Cross-Site Request Forgery
-Entering the URL https://github.com/riyadhhossain01/codepath/blob/master/week8/Cross%20Site%20Request%20Forgery%20RED%3CCSRF%3E.gif
+Entering the URL ![alt text](https://github.com/riyadhhossain01/codepath/blob/master/week8/Cross%20Site%20Request%20Forgery%20RED%3CCSRF%3E.gif)
 
 When I trying to edit the information after changing the value of csrd_token, red section is still able to make a change, while the other two sections show "Error: invalid request" after I changed its csrf_token.
 
 Bonus Objective 2: Build on Objective #4 (Cross-Site Scripting)
-Entering the URL https://github.com/riyadhhossain01/codepath/blob/master/week8/Build%20on%20Objective%20%234(CSS).gif
+Entering the URL ![alt text](https://github.com/riyadhhossain01/codepath/blob/master/week8/Build%20on%20Objective%20%234(CSS).gif)
 
 In green section, I use <script>document.location="https://www.google.com"</script> in Feedback in Contact Us, then go to the feedback section in Staff Menu, it should direct the page to google. Additionally, type <script>alert(document.cookie)</script> may read the cookie data and type <script>document.cookie="username=abcde"</script>may set the cookie data.
 
