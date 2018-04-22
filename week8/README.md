@@ -17,7 +17,7 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 ## Blue
 
 Vulnerability #1: SQL Injection__
-Entering the URL https://github.com/riyadhhossain01/codepath/blob/master/week8/SQL%20Injection%20Blue.gif 
+Entering the URL ![alt text](https://github.com/riyadhhossain01/codepath/blob/master/week8/SQL%20Injection%20Blue.gif)
 
 Select the Salesperson section, there is "?id=X" at the end of the url, by entering a ' after X (X can be from 1 to 9), the blue section will show "Database query failed" while the green and red sections just redirect. This indicates that the blue section has SQLI vulnerability. I used ?id=' OR 1=1'-- to testify it.
 
