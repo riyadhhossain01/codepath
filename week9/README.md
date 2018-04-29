@@ -22,7 +22,8 @@ Time spent: **20** hours spent in total
 - Google cloud compute engine (https://cloud.google.com/compute/)
 - Pentesting framework, Metasploit (https://www.metasploit.com/)
 - Network scanning tool, netmap (https://nmap.org/)
-
+- Modern honey network (https://threatstream.github.io/mhn/)
+- Gif creator, LiceCap (https://www.cockos.com/licecap/)
 
 
 [Exported Data](https://github.com/riyadhhossain01/codepath/blob/master/week9/session.json)
