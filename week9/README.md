@@ -11,7 +11,7 @@ Time spent: **20** hours spent in total
 - Total Attack(s): 3861
 - Total Malware(s): 1
 - GIF Walkthrough: ![Live Capture](https://github.com/riyadhhossain01/codepath/blob/master/week9/Honey%20Pot.gif)
-- Attack data has been added, it can be found at /data/session.json
+- Attack data has been added below
 ## Issues Faced
 
 - First challenge I faced was when I was loading MHN admin in browser from external network. I had to modify VPN Firewall Rule of GCP to allow http traffic from external network.
