@@ -26,4 +26,4 @@ Time spent: **20** hours spent in total
 - Gif creator, LiceCap (https://www.cockos.com/licecap/)
 
 
-[Exported Data](https://github.com/riyadhhossain01/codepath/blob/master/week9/week9/session.json)
+[Exported Data](https://github.com/riyadhhossain01/codepath/blob/master/week9/session.json)
