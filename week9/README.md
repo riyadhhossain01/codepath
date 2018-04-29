@@ -8,7 +8,7 @@ Time spent: **20** hours spent in total
 
 - Type of Honeypot Deployed: Dionaea
 - Summary:
-- Total Attack(s): 19760
+- Total Attack(s): 3861
 - Total Malware(s): 1
 - GIF Walkthrough: ![Live Capture](https://github.com/riyadhhossain01/codepath/blob/master/week9/Honey%20Pot.gif)
 - Attack data has been added, it can be found at /data/session.json
